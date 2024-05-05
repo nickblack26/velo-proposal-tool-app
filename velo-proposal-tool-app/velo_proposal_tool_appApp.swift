@@ -10,9 +10,11 @@ import SwiftData
 
 @main
 struct velo_proposal_tool_appApp: App {
+	@State private var supabaseManager = SupabaseManager()
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            Item.self,
+            Proposal.self,
+			JSONNull.self
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
@@ -28,5 +30,6 @@ struct velo_proposal_tool_appApp: App {
             ContentView()
         }
         .modelContainer(sharedModelContainer)
+		.environment(supabaseManager)
     }
 }

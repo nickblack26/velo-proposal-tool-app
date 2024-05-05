@@ -7,14 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D06705D2BE58208005A094C /* ProposalOverview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D06705C2BE58208005A094C /* ProposalOverview.swift */; };
+		1D7AAAE42BE5577000CBF47F /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7AAAE32BE5577000CBF47F /* Card.swift */; };
+		1D7AAAE62BE559F800CBF47F /* CardHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7AAAE52BE559F800CBF47F /* CardHeader.swift */; };
+		1D7AAAE82BE55BC400CBF47F /* CardContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7AAAE72BE55BC400CBF47F /* CardContent.swift */; };
+		1D7AAAEA2BE55C8C00CBF47F /* Input.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7AAAE92BE55C8C00CBF47F /* Input.swift */; };
+		1D7AAAEC2BE55FFC00CBF47F /* CardFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7AAAEB2BE55FFC00CBF47F /* CardFooter.swift */; };
 		1DEED4322BE51B1F003AA88A /* velo_proposal_tool_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEED4312BE51B1F003AA88A /* velo_proposal_tool_appApp.swift */; };
 		1DEED4342BE51B1F003AA88A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEED4332BE51B1F003AA88A /* ContentView.swift */; };
 		1DEED4362BE51B1F003AA88A /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEED4352BE51B1F003AA88A /* Item.swift */; };
 		1DEED4382BE51B20003AA88A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DEED4372BE51B20003AA88A /* Assets.xcassets */; };
 		1DEED43C2BE51B20003AA88A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DEED43B2BE51B20003AA88A /* Preview Assets.xcassets */; };
+		1DEED4442BE51B93003AA88A /* Auth in Frameworks */ = {isa = PBXBuildFile; productRef = 1DEED4432BE51B93003AA88A /* Auth */; };
+		1DEED4462BE51B93003AA88A /* Functions in Frameworks */ = {isa = PBXBuildFile; productRef = 1DEED4452BE51B93003AA88A /* Functions */; };
+		1DEED4482BE51B93003AA88A /* PostgREST in Frameworks */ = {isa = PBXBuildFile; productRef = 1DEED4472BE51B93003AA88A /* PostgREST */; };
+		1DEED44A2BE51B93003AA88A /* Realtime in Frameworks */ = {isa = PBXBuildFile; productRef = 1DEED4492BE51B93003AA88A /* Realtime */; };
+		1DEED44C2BE51B93003AA88A /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = 1DEED44B2BE51B93003AA88A /* Storage */; };
+		1DEED44F2BE51BF6003AA88A /* SupabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEED44E2BE51BF6003AA88A /* SupabaseManager.swift */; };
+		1DEED4582BE5221B003AA88A /* JSONSchemaSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEED4572BE5221B003AA88A /* JSONSchemaSupport.swift */; };
+		1DEED4932BE52573003AA88A /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEED4872BE52573003AA88A /* Product.swift */; };
+		1DEED4942BE52573003AA88A /* Phase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEED4882BE52573003AA88A /* Phase.swift */; };
+		1DEED4952BE52573003AA88A /* Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEED4892BE52573003AA88A /* Version.swift */; };
+		1DEED4962BE52573003AA88A /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEED48A2BE52573003AA88A /* Section.swift */; };
+		1DEED4972BE52573003AA88A /* ProductClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEED48B2BE52573003AA88A /* ProductClass.swift */; };
+		1DEED4982BE52573003AA88A /* Proposal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEED48C2BE52573003AA88A /* Proposal.swift */; };
+		1DEED4992BE52573003AA88A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEED48D2BE52573003AA88A /* User.swift */; };
+		1DEED49B2BE52573003AA88A /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEED48F2BE52573003AA88A /* Task.swift */; };
+		1DEED49C2BE52573003AA88A /* JSONSchemaSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEED4902BE52573003AA88A /* JSONSchemaSupport.swift */; };
+		1DEED49D2BE52573003AA88A /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEED4912BE52573003AA88A /* Ticket.swift */; };
+		1DEED4A02BE5295B003AA88A /* Auth in Frameworks */ = {isa = PBXBuildFile; productRef = 1DEED49F2BE5295B003AA88A /* Auth */; };
+		1DEED4A22BE5295B003AA88A /* Functions in Frameworks */ = {isa = PBXBuildFile; productRef = 1DEED4A12BE5295B003AA88A /* Functions */; };
+		1DEED4A42BE5295B003AA88A /* PostgREST in Frameworks */ = {isa = PBXBuildFile; productRef = 1DEED4A32BE5295B003AA88A /* PostgREST */; };
+		1DEED4A62BE5295B003AA88A /* Realtime in Frameworks */ = {isa = PBXBuildFile; productRef = 1DEED4A52BE5295B003AA88A /* Realtime */; };
+		1DEED4A82BE5295B003AA88A /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = 1DEED4A72BE5295B003AA88A /* Storage */; };
+		1DEED4AB2BE52968003AA88A /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 1DEED4AA2BE52968003AA88A /* Supabase */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D06705C2BE58208005A094C /* ProposalOverview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProposalOverview.swift; sourceTree = "<group>"; };
+		1D7AAAE32BE5577000CBF47F /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		1D7AAAE52BE559F800CBF47F /* CardHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardHeader.swift; sourceTree = "<group>"; };
+		1D7AAAE72BE55BC400CBF47F /* CardContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardContent.swift; sourceTree = "<group>"; };
+		1D7AAAE92BE55C8C00CBF47F /* Input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Input.swift; sourceTree = "<group>"; };
+		1D7AAAEB2BE55FFC00CBF47F /* CardFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFooter.swift; sourceTree = "<group>"; };
 		1DEED42E2BE51B1F003AA88A /* velo-proposal-tool-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "velo-proposal-tool-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DEED4312BE51B1F003AA88A /* velo_proposal_tool_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = velo_proposal_tool_appApp.swift; sourceTree = "<group>"; };
 		1DEED4332BE51B1F003AA88A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -22,6 +57,18 @@
 		1DEED4372BE51B20003AA88A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DEED4392BE51B20003AA88A /* velo_proposal_tool_app.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = velo_proposal_tool_app.entitlements; sourceTree = "<group>"; };
 		1DEED43B2BE51B20003AA88A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1DEED44E2BE51BF6003AA88A /* SupabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupabaseManager.swift; sourceTree = "<group>"; };
+		1DEED4572BE5221B003AA88A /* JSONSchemaSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JSONSchemaSupport.swift; path = "../../../../Downloads/Proposal Swift (quicktype)/JSONSchemaSupport.swift"; sourceTree = "<group>"; };
+		1DEED4872BE52573003AA88A /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Product.swift; path = "../../../../Downloads/Proposal Swift (quicktype)/Product.swift"; sourceTree = "<group>"; };
+		1DEED4882BE52573003AA88A /* Phase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Phase.swift; path = "../../../../Downloads/Proposal Swift (quicktype)/Phase.swift"; sourceTree = "<group>"; };
+		1DEED4892BE52573003AA88A /* Version.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Version.swift; path = "../../../../Downloads/Proposal Swift (quicktype)/Version.swift"; sourceTree = "<group>"; };
+		1DEED48A2BE52573003AA88A /* Section.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Section.swift; path = "../../../../Downloads/Proposal Swift (quicktype)/Section.swift"; sourceTree = "<group>"; };
+		1DEED48B2BE52573003AA88A /* ProductClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductClass.swift; path = "../../../../Downloads/Proposal Swift (quicktype)/ProductClass.swift"; sourceTree = "<group>"; };
+		1DEED48C2BE52573003AA88A /* Proposal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Proposal.swift; path = "../../../../Downloads/Proposal Swift (quicktype)/Proposal.swift"; sourceTree = "<group>"; };
+		1DEED48D2BE52573003AA88A /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = "../../../../Downloads/Proposal Swift (quicktype)/User.swift"; sourceTree = "<group>"; };
+		1DEED48F2BE52573003AA88A /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Task.swift; path = "../../../../Downloads/Proposal Swift (quicktype)/Task.swift"; sourceTree = "<group>"; };
+		1DEED4902BE52573003AA88A /* JSONSchemaSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JSONSchemaSupport.swift; path = "../../../../Downloads/Proposal Swift (quicktype)/JSONSchemaSupport.swift"; sourceTree = "<group>"; };
+		1DEED4912BE52573003AA88A /* Ticket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Ticket.swift; path = "../../../../Downloads/Proposal Swift (quicktype)/Ticket.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +76,49 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DEED4AB2BE52968003AA88A /* Supabase in Frameworks */,
+				1DEED4A62BE5295B003AA88A /* Realtime in Frameworks */,
+				1DEED4482BE51B93003AA88A /* PostgREST in Frameworks */,
+				1DEED4462BE51B93003AA88A /* Functions in Frameworks */,
+				1DEED4A02BE5295B003AA88A /* Auth in Frameworks */,
+				1DEED4442BE51B93003AA88A /* Auth in Frameworks */,
+				1DEED4A42BE5295B003AA88A /* PostgREST in Frameworks */,
+				1DEED4A22BE5295B003AA88A /* Functions in Frameworks */,
+				1DEED44C2BE51B93003AA88A /* Storage in Frameworks */,
+				1DEED4A82BE5295B003AA88A /* Storage in Frameworks */,
+				1DEED44A2BE51B93003AA88A /* Realtime in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D7AAAE12BE5575500CBF47F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				1D7AAAE22BE5575F00CBF47F /* Card */,
+				1D7AAAE92BE55C8C00CBF47F /* Input.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		1D7AAAE22BE5575F00CBF47F /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				1D7AAAE32BE5577000CBF47F /* Card.swift */,
+				1D7AAAE52BE559F800CBF47F /* CardHeader.swift */,
+				1D7AAAE72BE55BC400CBF47F /* CardContent.swift */,
+				1D7AAAEB2BE55FFC00CBF47F /* CardFooter.swift */,
+			);
+			path = Card;
+			sourceTree = "<group>";
+		};
 		1DEED4252BE51B1F003AA88A = {
 			isa = PBXGroup;
 			children = (
 				1DEED4302BE51B1F003AA88A /* velo-proposal-tool-app */,
 				1DEED42F2BE51B1F003AA88A /* Products */,
+				1DEED4A92BE52968003AA88A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,12 +133,16 @@
 		1DEED4302BE51B1F003AA88A /* velo-proposal-tool-app */ = {
 			isa = PBXGroup;
 			children = (
+				1D7AAAE12BE5575500CBF47F /* Components */,
+				1DEED4502BE51C5D003AA88A /* Models */,
+				1DEED44D2BE51BE5003AA88A /* Managers */,
 				1DEED4312BE51B1F003AA88A /* velo_proposal_tool_appApp.swift */,
 				1DEED4332BE51B1F003AA88A /* ContentView.swift */,
 				1DEED4352BE51B1F003AA88A /* Item.swift */,
 				1DEED4372BE51B20003AA88A /* Assets.xcassets */,
 				1DEED4392BE51B20003AA88A /* velo_proposal_tool_app.entitlements */,
 				1DEED43A2BE51B20003AA88A /* Preview Content */,
+				1D06705C2BE58208005A094C /* ProposalOverview.swift */,
 			);
 			path = "velo-proposal-tool-app";
 			sourceTree = "<group>";
@@ -67,9 +150,42 @@
 		1DEED43A2BE51B20003AA88A /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				1DEED4572BE5221B003AA88A /* JSONSchemaSupport.swift */,
 				1DEED43B2BE51B20003AA88A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1DEED44D2BE51BE5003AA88A /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				1DEED44E2BE51BF6003AA88A /* SupabaseManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		1DEED4502BE51C5D003AA88A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1DEED4902BE52573003AA88A /* JSONSchemaSupport.swift */,
+				1DEED4882BE52573003AA88A /* Phase.swift */,
+				1DEED4872BE52573003AA88A /* Product.swift */,
+				1DEED48B2BE52573003AA88A /* ProductClass.swift */,
+				1DEED48C2BE52573003AA88A /* Proposal.swift */,
+				1DEED48A2BE52573003AA88A /* Section.swift */,
+				1DEED48F2BE52573003AA88A /* Task.swift */,
+				1DEED4912BE52573003AA88A /* Ticket.swift */,
+				1DEED48D2BE52573003AA88A /* User.swift */,
+				1DEED4892BE52573003AA88A /* Version.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1DEED4A92BE52968003AA88A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -88,6 +204,19 @@
 			dependencies = (
 			);
 			name = "velo-proposal-tool-app";
+			packageProductDependencies = (
+				1DEED4432BE51B93003AA88A /* Auth */,
+				1DEED4452BE51B93003AA88A /* Functions */,
+				1DEED4472BE51B93003AA88A /* PostgREST */,
+				1DEED4492BE51B93003AA88A /* Realtime */,
+				1DEED44B2BE51B93003AA88A /* Storage */,
+				1DEED49F2BE5295B003AA88A /* Auth */,
+				1DEED4A12BE5295B003AA88A /* Functions */,
+				1DEED4A32BE5295B003AA88A /* PostgREST */,
+				1DEED4A52BE5295B003AA88A /* Realtime */,
+				1DEED4A72BE5295B003AA88A /* Storage */,
+				1DEED4AA2BE52968003AA88A /* Supabase */,
+			);
 			productName = "velo-proposal-tool-app";
 			productReference = 1DEED42E2BE51B1F003AA88A /* velo-proposal-tool-app.app */;
 			productType = "com.apple.product-type.application";
@@ -116,6 +245,9 @@
 				Base,
 			);
 			mainGroup = 1DEED4252BE51B1F003AA88A;
+			packageReferences = (
+				1DEED4422BE51B93003AA88A /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
 			productRefGroup = 1DEED42F2BE51B1F003AA88A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -142,9 +274,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D7AAAEC2BE55FFC00CBF47F /* CardFooter.swift in Sources */,
+				1DEED4952BE52573003AA88A /* Version.swift in Sources */,
+				1D06705D2BE58208005A094C /* ProposalOverview.swift in Sources */,
 				1DEED4342BE51B1F003AA88A /* ContentView.swift in Sources */,
+				1DEED4582BE5221B003AA88A /* JSONSchemaSupport.swift in Sources */,
 				1DEED4362BE51B1F003AA88A /* Item.swift in Sources */,
+				1DEED4982BE52573003AA88A /* Proposal.swift in Sources */,
+				1D7AAAE62BE559F800CBF47F /* CardHeader.swift in Sources */,
+				1DEED49B2BE52573003AA88A /* Task.swift in Sources */,
+				1D7AAAEA2BE55C8C00CBF47F /* Input.swift in Sources */,
+				1DEED4962BE52573003AA88A /* Section.swift in Sources */,
+				1DEED4972BE52573003AA88A /* ProductClass.swift in Sources */,
+				1DEED49C2BE52573003AA88A /* JSONSchemaSupport.swift in Sources */,
 				1DEED4322BE51B1F003AA88A /* velo_proposal_tool_appApp.swift in Sources */,
+				1DEED44F2BE51BF6003AA88A /* SupabaseManager.swift in Sources */,
+				1DEED49D2BE52573003AA88A /* Ticket.swift in Sources */,
+				1DEED4992BE52573003AA88A /* User.swift in Sources */,
+				1DEED4932BE52573003AA88A /* Product.swift in Sources */,
+				1D7AAAE82BE55BC400CBF47F /* CardContent.swift in Sources */,
+				1DEED4942BE52573003AA88A /* Phase.swift in Sources */,
+				1D7AAAE42BE5577000CBF47F /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +446,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nicholasblack.velo-proposal-tool-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -334,7 +486,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nicholasblack.velo-proposal-tool-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -363,6 +517,70 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1DEED4422BE51B93003AA88A /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase/supabase-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1DEED4432BE51B93003AA88A /* Auth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1DEED4422BE51B93003AA88A /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Auth;
+		};
+		1DEED4452BE51B93003AA88A /* Functions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1DEED4422BE51B93003AA88A /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Functions;
+		};
+		1DEED4472BE51B93003AA88A /* PostgREST */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1DEED4422BE51B93003AA88A /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = PostgREST;
+		};
+		1DEED4492BE51B93003AA88A /* Realtime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1DEED4422BE51B93003AA88A /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Realtime;
+		};
+		1DEED44B2BE51B93003AA88A /* Storage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1DEED4422BE51B93003AA88A /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Storage;
+		};
+		1DEED49F2BE5295B003AA88A /* Auth */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Auth;
+		};
+		1DEED4A12BE5295B003AA88A /* Functions */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Functions;
+		};
+		1DEED4A32BE5295B003AA88A /* PostgREST */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PostgREST;
+		};
+		1DEED4A52BE5295B003AA88A /* Realtime */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Realtime;
+		};
+		1DEED4A72BE5295B003AA88A /* Storage */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Storage;
+		};
+		1DEED4AA2BE52968003AA88A /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1DEED4422BE51B93003AA88A /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1DEED4262BE51B1F003AA88A /* Project object */;
 }

@@ -7,12 +7,19 @@
 
 import SwiftUI
 
-struct CardContent: View {
+struct CardContent<Content: View>: View {
+	@ViewBuilder var content: Content
+	
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+		VStack(alignment: .leading, spacing: 16) {
+			content
+		}
+		.padding([.bottom, .horizontal], 24)
     }
 }
 
 #Preview {
-    CardContent()
+	CardContent {
+		
+	}
 }

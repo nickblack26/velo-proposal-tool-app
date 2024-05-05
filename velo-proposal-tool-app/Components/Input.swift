@@ -8,11 +8,35 @@
 import SwiftUI
 
 struct Input: View {
+	@State private var text: String = ""
+	var label: String?
+	var description: String?
+	var prompt: String?
+	
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+		VStack(alignment: .leading, spacing: 6) {
+			if label != nil {
+				Text(label!)
+					.fontWeight(.medium)
+			}
+			
+			if prompt != nil {
+				TextField(label ?? "", text: $text, prompt: Text(prompt ?? ""))
+					.textFieldStyle(.roundedBorder)
+			} else {
+				TextField(label ?? "", text: $text)
+					.textFieldStyle(.roundedBorder)
+			}
+			
+			if description != nil {
+				Text(description!)
+					.font(.callout)
+					.foregroundStyle(.secondary)
+			}
+		}
     }
 }
 
 #Preview {
-    Input()
+    Input(label: "Name", description: "Testing")
 }

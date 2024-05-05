@@ -8,11 +8,33 @@
 import SwiftUI
 
 struct CardHeader: View {
+	var title: String?
+	var description: String?
+	
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+		VStack(
+			alignment: .leading,
+			spacing: 6
+		) {
+			if title != nil {
+				Text(title!)
+					.fontWeight(.semibold)
+					.tracking(-0.4)
+					.multilineTextAlignment(.center)
+					.lineLimit(4)
+					.allowsTightening(true)
+			}
+			
+			if description != nil {
+				Text(description!)
+					.font(.callout)
+					.foregroundStyle(.secondary)
+			}
+		}
+		.padding(24)
     }
 }
 
 #Preview {
-    CardHeader()
+    CardHeader(title: "Testing", description: "Testing")
 }

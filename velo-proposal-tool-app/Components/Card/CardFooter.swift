@@ -7,12 +7,29 @@
 
 import SwiftUI
 
-struct CardFooter: View {
+struct CardFooter<Content: View>: View {
+	@ViewBuilder var content: Content
+	
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+		HStack {
+			content
+		}
+		.padding([.horizontal, .bottom], 24)
     }
 }
 
 #Preview {
-    CardFooter()
+	CardFooter {
+		Button("Cancel") {
+			
+		}
+		.buttonStyle(.borderedProminent)
+		
+		Spacer()
+		
+		Button("Deploy") {
+			
+		}
+		.buttonStyle(.borderedProminent)
+	}
 }
